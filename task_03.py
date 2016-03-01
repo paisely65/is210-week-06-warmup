@@ -4,6 +4,12 @@
 
 import data
 DIRECTIONS = data.DIRECTIONS
-print DIRECTIONS[-1]
-print DIRECTIONS[:3]
-print DIRECTIONS[:3] + tuple('Western')
+a = DIRECTIONS[3]
+c = DIRECTIONS[:3]
+b = DIRECTIONS[3][10:18]
+DIRECTIONS = DIRECTIONS[:3], DIRECTIONS[3][10:18]
+print DIRECTIONS
+
+
+
+
