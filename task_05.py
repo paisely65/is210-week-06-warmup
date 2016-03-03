@@ -24,5 +24,3 @@ def flip_keys(to_flip):
         tally += 1
 
     return to_flip
-       
-
