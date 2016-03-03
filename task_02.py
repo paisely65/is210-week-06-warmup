@@ -6,6 +6,10 @@ import data
 BALLETS = data.BALLETS
 del BALLETS[11]
 BALLETS[1] = 'Swan Lake'
-BALLETS.append('Herman Schmerman')
-BALLETS = BALLETS.extend('Don Quixote'), BALLETS.extend('Sylvia')
 print BALLETS
+BALLETS.append('Herman Schmerman')
+print BALLETS
+BALLETS.extend(['Don Quixote'])
+BALLETS.extend(['Sylvia'])
+print BALLETS
+
