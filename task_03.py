@@ -6,7 +6,8 @@ import data
 
 DIRECTIONS = data.DIRECTIONS
 
-DIRECTIOSN = DIRECTIONS[:3]+('West',)
+DIRECTIONS = list(DIRECTIONS[:len(DIRECTIONS) - 1])
 
+DIRECTIONS.append('West')
 
-
+DIRECTIONS = tuple(DIRECTIONS)
