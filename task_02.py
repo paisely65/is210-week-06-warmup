@@ -11,5 +11,4 @@ BALLETS.append('Herman Schmerman')
 print BALLETS
 BALLETS.extend(['Don Quixote'])
 BALLETS.extend(['Sylvia'])
-print BALLETS
 
