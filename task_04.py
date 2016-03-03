@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """This docstring creates a for loop"""
 
+
 def process_data(data):
     """This function calculates sum and average using data froma tuple
 
@@ -21,11 +22,5 @@ def process_data(data):
     mysum = 0
     for mynum in data:
         mysum += mynum
-            
     myavg = (mysum / float(len(data)))
     return(mysum, myavg)
-                                      
-                        
-                                      
-            
-    
